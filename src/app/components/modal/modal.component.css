@@ -1,0 +1,75 @@
+.screen {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: aliceblue;
+  border: 1px solid blue;
+  height: 50vh;
+  width: 50vw;
+}
+
+.modal__title {
+  font-size: 20px;
+  height: 20%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal__content {
+  font-size: 16px;
+  height: 80%;
+  padding: 0 20px;
+}
+
+.modal__content__options {
+  height: 30%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal__content__radio {
+  margin-right: 10px;
+}
+
+.modal__content__custom {
+  height: 30%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.modal__content__custom__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.modal__content__custom__input {
+  width: 40px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.modal__button {
+  height: 20%;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}

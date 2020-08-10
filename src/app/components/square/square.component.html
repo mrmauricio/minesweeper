@@ -1,0 +1,10 @@
+<div
+  class="square"
+  [class.background]="!square.visible && !marked"
+  [class.background__exploded]="exploded"
+  (click)="handleLeftBtnClick()"
+  (contextmenu)="handleRightBtnClick()"
+>
+  <span *ngIf="square.visible" [ngClass]="getSquareColor(placeholder)">{{ placeholder }}</span>
+  <span *ngIf="marked && !square.visible" class="colorBomb">#</span>
+</div>

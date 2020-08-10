@@ -1,0 +1,64 @@
+.square {
+  width: 30px;
+  height: 30px;
+  margin: 1px;
+  border: 1px solid blue;
+
+  font-size: 22px;
+  user-select: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  background-color: aliceblue;
+}
+
+.background__exploded {
+  background-color: #ffdad6;
+}
+
+.colorBomb {
+  color: red;
+  font-weight: bold;
+}
+
+.colorZero {
+  background-color: #fafafa;
+  width: 98%;
+  height: 98%;
+}
+
+.colorOne {
+  color: blue;
+}
+
+.colorTwo {
+  color: green;
+}
+
+.colorThree {
+  color: orangered;
+}
+
+.colorFour {
+  color: purple;
+}
+
+.colorFive {
+  color: maroon;
+}
+
+.colorSix {
+  color: turquoise;
+}
+
+.colorSeven {
+  color: black;
+}
+
+.colorEight {
+  color: gray;
+}
